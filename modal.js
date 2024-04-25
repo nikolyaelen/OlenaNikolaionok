@@ -13,7 +13,7 @@ function checkEmail() {
         }, 2000);
     } else {
         emailField.value = '';
-        var errorMessage = 'Please, enter a correct e-mail.';
+        var errorMessage = 'Please, You need to provide the correct email address.';
         showModal(errorMessage); setTimeout(function() {
             hideModal();
         }, 3000);

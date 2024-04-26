@@ -45,11 +45,10 @@ p {
 /*///////////////////////////////// nav-top ///////////////////////////////*/
 .nav-top {
   display: inline-flex;
-  padding: 18px 15px;
   justify-content: center;
   align-items: center;
+  padding: 18px 15px;
   gap: 564.75px;
-
 }
 
 .ul {
@@ -99,6 +98,7 @@ p {
 .mor {
   width: 90%;
 }
+
 
 /*///////////////////////////////// section 2 ///////////////////////////////*/
 
@@ -419,10 +419,21 @@ p {
 
 
 @media (max-width: 768px) {
-  .container{
+  .wrapper{
     max-width: 480px;
     flex-wrap: wrap;
-
+  }
+  .section1 {
+    max-width: 480px;
+    flex-wrap: wrap;
+  }
+  .section2 {
+    max-width: 480px;
+    flex-wrap: wrap;
+  }
+  .section3 {
+    max-width: 480px;
+    flex-wrap: wrap;
   }
 }
 @media (max-width : 479px) {

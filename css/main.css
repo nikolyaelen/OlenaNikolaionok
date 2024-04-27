@@ -44,11 +44,14 @@ p {
 
 /*///////////////////////////////// nav-top ///////////////////////////////*/
 .nav-top {
-  display: inline-flex;
+  display: flex;
+  flex: 1;
+  max-width: 100%;
+  width: 1080px;
   justify-content: center;
   align-items: center;
   padding: 18px 15px;
-  gap: 564.75px;
+  gap: 60%;
 }
 
 .ul {
@@ -181,6 +184,7 @@ p {
   width: 1050px;
   height: 887.219px;
   margin-bottom: 79px;
+  
 }
 
 .section-h4 {
@@ -249,7 +253,6 @@ p {
   display: flex;
   flex: 1;
   width: 1440px;
-  height: 282px;
   justify-content: center;
   background-color: #EEE;
   margin-bottom: 50px;
@@ -427,6 +430,10 @@ p {
     max-width: 480px;
     flex-wrap: wrap;
   }
+  .nav-top {
+    max-width: 480px;
+    flex-wrap: wrap;
+  }
   .section1 {
     max-width: 480px;
     flex-wrap: wrap;
@@ -436,6 +443,15 @@ p {
     flex-wrap: wrap;
   }
   .section3 {
+    max-width: 480px;
+    flex-wrap: wrap;
+  }
+  .section4 {
+    max-width: 480px;
+    flex-wrap: wrap;
+    --elements: 2;
+  }
+  .gray {
     max-width: 480px;
     flex-wrap: wrap;
   }
